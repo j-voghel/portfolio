@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor folders
+.vscode/
+.idea/
+
+# If you ever add Node.js tools later
+node_modules/
+npm-debug.log*
+
+# Environment variables (never commit secrets)
+.env
+.env.local
