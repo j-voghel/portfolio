@@ -29,5 +29,8 @@ Personal portfolio website for a designer. Plain HTML + CSS + JS — no framewor
 ## Design tokens (current theme)
 Light theme, warm neutrals + burnt sienna accent. All in `style.css :root`.
 
+## Context usage
+User wants a warning at 80% context usage, but Claude cannot monitor this automatically mid-conversation — /context only works when the user types it. Remind the user to type /context periodically during long sessions. Do not attempt to set up a scheduled task for this.
+
 ## Memory instruction
 At the end of every session, or whenever something comes up that seems worth preserving — a workflow decision, a preference, a recurring phrase the user uses, anything that would help future sessions — automatically update this CLAUDE.md file and commit it to the dev branch. Don't ask, just do it. This file is the persistent memory for the project.
